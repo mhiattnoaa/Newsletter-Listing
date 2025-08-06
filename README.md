@@ -45,7 +45,7 @@ __year__
 Notes
 --------
 The basic output is a list. You will need to edit your CSS to match your theme.
-If "year" is selected. The list will be wrapped in a <div> container.
+If "year" is selected. The list will be wrapped in a `<div>` container.
 
 
 HTML Output
