@@ -32,7 +32,7 @@ Attributes
 
 __year__
 
-*Boolean - true | false* - Separates the newsletters by year. Defaults to false.
+*Boolean - true | false* - Separates the newsletters by year. eg. [newsletterList year="true"] Defaults to false.
 
 
 Notes
