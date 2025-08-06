@@ -58,8 +58,10 @@ function listNewsletters($atts){
 			$newsletter_year = date('Y', strtotime($date)); 
 
 			if($a['year'] == 'true' && $current_year != '' && $newsletter_year < $current_year){
+				
 				$output .= '</ul></div>';
-                $output .= '<div class="newsletter_year">';
+               			$output .= '<div class="newsletter_year">';
+				
 			}
 
 
@@ -102,5 +104,6 @@ function listNewsletters($atts){
  * Example: [newsletterList per_page=5 page=2] //will show the 6th-10th newsletters
  * 
  **/
+
 
 add_shortcode( 'newsletterList', 'listNewsletters' );
