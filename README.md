@@ -19,21 +19,27 @@ https://www.thenewsletterplugin.com/documentation/developers/newsletter-api-2-au
 
 3. Copy and paste the newsletterPluginListing.php code into WPCode or your preferred coding plugin and set it to run on the frontend or specific to a page
 
-4. Insert the shortcode [newsletterList] to display the 10 most recent newsletters or see the attributes below to customize the output.
+4. Insert the shortcode `[newsletterList]` to display the 10 most recent newsletters or see the attributes below to customize the output.
 
 Attributes
 --------- 
  __per_page__
  
-*Integer* - Number of items per page. eg [newsletterList per_page=5] will show five listings. Defaults to 10.
+*Integer* - Number of items per page. Default is 10.
+
+` [newsletterList per_page=5] \\will show the 5 most recent listings. `
  
  __page__
  
-*Integer* - Current page to show. eg. [newsletterList per_page=5 page=2] will show the 6th-10th latest newsletters. Defaults to 1.
+*Integer* - Current page to show.  Default is 1.
+
+`[newsletterList per_page=5 page=2] \\will show the 6th-10th most recent newsletters.`
 
 __year__
 
-*Boolean - true | false* - Separates the newsletters by year. eg. [newsletterList year="true"] Defaults to false.
+*Boolean - true | false* - Separates the newsletters by year. Default is 'false'. See HTML output below
+
+`[newsletterList year='true']` 
 
 
 Notes
