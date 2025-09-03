@@ -53,7 +53,7 @@ function listNewsletters($atts){
 	
 			$newsletter_id = $newsletter['id'];
 			$newsletter_title = $newsletter['subject'];
-			$url = esc_url( home_url( '/na?id='.$newsletter_id) );
+			$url = esc_url( home_url( '/?na=view&id='.$newsletter_id) );
 			$date = $newsletter['sent_on'];
 			$newsletter_year = date('Y', strtotime($date)); 
 
@@ -107,3 +107,4 @@ function listNewsletters($atts){
 
 
 add_shortcode( 'newsletterList', 'listNewsletters' );
+
