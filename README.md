@@ -55,9 +55,9 @@ With year="false"
 
 ```html
 <ul class="newsletter_list">
- <li><a href="https://oceanacidification.noaa.gov/na?id=7" target="_blank">OAP Ocean Outlook - Summer 2025 Newsletter</a></li>
- <li><a href="https://oceanacidification.noaa.gov/na?id=4" target="_blank">OAP Ocean Outlook - Spring 2025 Newsletter</a></li>
- <li><a href="https://oceanacidification.noaa.gov/na?id=2" target="_blank">OAP Ocean Outlook - Fall 2024 Newsletter</a></li>
+ <li><a href="https://oceanacidification.noaa.gov/?na=view&id=7" target="_blank">OAP Ocean Outlook - Summer 2025 Newsletter</a></li>
+ <li><a href="https://oceanacidification.noaa.gov/?na=view&id=4" target="_blank">OAP Ocean Outlook - Spring 2025 Newsletter</a></li>
+ <li><a href="https://oceanacidification.noaa.gov/?na=view&id=2" target="_blank">OAP Ocean Outlook - Fall 2024 Newsletter</a></li>
 </ul>
 ```
 
@@ -67,14 +67,14 @@ With year="true"
 <div class="newsletter_year">
  <h3>2025</h3>
  <ul class="newsletter_list">
-  <li><a href="https://oceanacidification.noaa.gov/na?id=7" target="_blank">OAP Ocean Outlook - Summer 2025 Newsletter</a></li>
-  <li><a href="https://oceanacidification.noaa.gov/na?id=4" target="_blank">OAP Ocean Outlook - Spring 2025 Newsletter</a></li>
+  <li><a href="https://oceanacidification.noaa.gov/?na=view&id=7" target="_blank">OAP Ocean Outlook - Summer 2025 Newsletter</a></li>
+  <li><a href="https://oceanacidification.noaa.gov/?na=view&id=4" target="_blank">OAP Ocean Outlook - Spring 2025 Newsletter</a></li>
 </ul>
 </div>
 <div class="newsletter_year">
  <h3>2024</h3>
  <ul class="newsletter_list">
-  <li><a href="https://oceanacidification.noaa.gov/na?id=2" target="_blank">OAP Ocean Outlook - Fall 2024 Newsletter</a></li>
+  <li><a href="https://oceanacidification.noaa.gov/?na=view&id=2" target="_blank">OAP Ocean Outlook - Fall 2024 Newsletter</a></li>
  </ul>
 </div>
 ```
