@@ -27,13 +27,13 @@ Attributes
  
 *Integer* - Number of items per page. Default is 10.
 
-` [newsletterList per_page=5] \\will show the 5 most recent listings. `
+` [newsletterList per_page=5] \\ displays the 5 most recent listings. `
  
  __page__
  
 *Integer* - Current page to show.  Default is 1.
 
-`[newsletterList per_page=5 page=2] \\will show the 6th-10th most recent newsletters.`
+`[newsletterList per_page=5 page=2] \\ displays the 6th-10th most recent newsletters.`
 
 __year__
 
@@ -80,4 +80,6 @@ With year="true"
 ```
 
 
-
+To Do
+----------
+- Create page navigation
